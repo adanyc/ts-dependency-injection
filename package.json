@@ -1,0 +1,20 @@
+{
+  "name": "dependency-injection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cleanup": "rimraf dist",
+    "build": "npm run cleanup && node_modules/.bin/tsc",
+    "build:watch": "npm run cleanup && node_modules/.bin/tsc -w",
+    "test": ""
+  },
+  "author": "adanyc",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
